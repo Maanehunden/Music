@@ -1,6 +1,8 @@
 <script setup></script>
 
 <template>
+  <div class="bg-red-500 p-10 text-white">Tailwind is working!</div>
+  <div class="bg-blue-500 !important">Forced Tailwind</div>
   <!-- Header -->
   <header id="header" class="bg-gray-700">
     <nav class="container mx-auto flex justify-start items-center py-5 px-4">
